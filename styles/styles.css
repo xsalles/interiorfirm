@@ -60,17 +60,12 @@ header button {
   }
 }
 
-section {
-  position: relative;
-  height: 100%;
-}
-
 .line {
   position: absolute;
   height: 100%;
   width: 1px;
   background-color: #030605;
-  left: 8.3%;
+  left: 130px;
   top: 118px;
   z-index: 1;
   opacity: 32%;
@@ -80,15 +75,44 @@ section {
 
 .line2 {
   position: absolute;
+  height: 804px;
+  width: 1px;
+  background-color: #030605;
+  left: 400px;
+  top: 118px;
+  z-index: 1;
+  opacity: 22%;
+}
+
+.line4 {
+  position: absolute;
   height: 100%;
   width: 1px;
   background-color: #030605;
-  left: 27.05%;
-  top: 118px;
+  left: 91%;
+  top: 848px;
   z-index: 1;
   opacity: 32%;
-  display: flex;
-  align-items: center;
+}
+
+.lineSmall {
+  position: absolute;
+  height: 114px;
+  width: 1px;
+  background-color: #030605;
+  left: 60px;
+  top: 198px;
+  z-index: -1;
+}
+
+.lineSmall2 {
+  position: absolute;
+  height: 114px;
+  width: 1px;
+  background-color: #030605;
+  left: 95.59%;
+  top: 974px;
+  z-index: -1;
 }
 
 .heroSection {
@@ -107,26 +131,62 @@ section {
   z-index: -2;
 }
 
+.wrapperGray {
+  position: absolute;
+  top: 132px;
+  right: 0;
+  width: 56%;
+  height: 600px;
+  background-color: transparent;
+  z-index: 1;
+  border-bottom-left-radius: 300px;
+  border: 1px solid rgba(3, 6, 5, 0.22);
+}
+
 .gray {
   position: absolute;
-  top: 150px;
   right: 0;
-  width: 54%;
+  bottom: 30px;
+  width: 96.77%;
   height: 600px;
   background-color: #e0e3e1;
   z-index: 1;
   border-bottom-left-radius: 300px;
 }
 
+.mirroredText {
+  position: absolute;
+  top: 160px;
+  right: 0;
+  width: 30.49%;
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 72px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+  transform: rotate(180deg);
+  z-index: 3;
+}
+
 .gray-form-1 {
   position: absolute;
   top: 621px;
-  left: 8.3%;
-  width: 300px;
+  left: 130px;
+  width: 270px;
   height: 478px;
   background-color: #e0e3e1;
   z-index: 1;
   border-radius: 300px;
+}
+
+.gray-form-2 {
+  position: absolute;
+  top: 804px;
+  left: 460px;
+  width: 270px;
+  height: 418px;
+  background-color: #e0e3e1;
+  z-index: -3;
+  border-radius: 0px 0px 300px 300px;
 }
 
 .wrapperContent {
@@ -139,8 +199,10 @@ section {
 }
 
 .wrapperContent h1 {
-  font-family: "Visby-Medium", sans-serif;
+  font-family: "Roxborough", sans-serif;
+  font-weight: 700;
   font-size: 102px;
+  width: 733px;
 }
 
 .wrapperContent p {
@@ -150,9 +212,9 @@ section {
   width: 65.5%;
 }
 
-.wrapperContent button {
+.buttonWrapper {
   margin-left: 350px;
-  width: 128px;
+  width: 174px;
   height: 52px;
   background-color: #28887a;
   color: white;
@@ -162,8 +224,146 @@ section {
   font-weight: 600;
   transition: all 0.3s ease;
   margin-top: 144px;
+  display: flex;
+  align-items: center;
+  padding: 16px 18px;
+  position: relative;
 
   &:hover {
     background-color: #1f6b5e;
+  }
+}
+
+.buttonWrapper button {
+   font-size: 16px;
+   font-family: 'Visby-Medium', sans-serif;
+   font-weight: 500;
+   color: white;
+   height: 100%;
+   width: 112px;
+}
+
+.buttonWrapper p {
+  position: absolute;
+  margin: 0;
+  left: 132px;
+  transform: translate();
+}
+
+.line3 {
+  position: absolute;
+  height: 1px;
+  width: 93.8%;
+  background-color: #030605;
+  left: 130px;
+  top: 922px;
+  z-index: -1;
+  opacity: 32%;
+}
+
+.image2 {
+  position: absolute;
+  top: 1158px;
+  left: 64px;
+  width: 132px;
+  height: 200px;
+  z-index: -1;
+}
+
+.image3 {
+  position: absolute;
+  top: 1168px;
+  left: 294px;
+  width: 132px;
+  height: 200px;
+  z-index: -1;
+}
+
+.arrow {
+  position: absolute;
+  top: 1297px;
+  left: 39.2%;
+  width: 125px;
+  z-index: -1;
+}
+
+.stats {
+  position: absolute;
+  top: 888px;
+  left: 54.44%;
+  z-index: -1;
+  display: flex;
+  gap: 84px;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  width: 133px;
+}
+
+.stat h2 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 94px;
+}
+
+.stat p {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 24px;
+}
+
+.inputContainer {
+  position: absolute;
+  top: 1180px;
+  left: 53.61%;
+  width: 546px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  gap: 58px;
+}
+
+.inputContainer label {
+  font-weight: 700;
+  font-size: 42px;
+  font-family: "Roxborough", sans-serif;
+}
+
+.inputWrapper {
+  width: 546px;
+  height: 66px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.inputWrapper input {
+  width: 358px;
+  height: 66px;
+  padding: 20px 26px;
+  border: none;
+
+  &::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.inputWrapper button {
+  width: 188px;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  position: absolute;
+
+  &:hover {
+    background-color: #343434;
   }
 }
