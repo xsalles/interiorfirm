@@ -1,0 +1,169 @@
+@import url(./font.css);
+
+header {
+  width: 100%;
+  height: 118px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 125px;
+}
+
+header div img {
+  width: 100%;
+  height: 17.81px;
+}
+
+.border-50 {
+  border-top: 1px solid black;
+  width: 50%;
+  height: 0;
+}
+
+header nav {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 18px;
+  display: flex;
+  gap: 32px;
+}
+
+header nav a {
+  color: black;
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header button {
+  width: 128px;
+  height: 52px;
+  background-color: #28887a;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #1f6b5e;
+  }
+}
+
+section {
+  position: relative;
+  height: 100%;
+}
+
+.line {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #030605;
+  left: 8.3%;
+  top: 118px;
+  z-index: 1;
+  opacity: 32%;
+  display: flex;
+  align-items: center;
+}
+
+.line2 {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #030605;
+  left: 27.05%;
+  top: 118px;
+  z-index: 1;
+  opacity: 32%;
+  display: flex;
+  align-items: center;
+}
+
+.heroSection {
+  position: relative;
+  font-family: "Visby-Regular", sans-serif;
+}
+
+.yellow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66.67%;
+  height: 804px;
+  background-color: #ffd476;
+  border-top-right-radius: 406px;
+  z-index: -2;
+}
+
+.gray {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  width: 54%;
+  height: 600px;
+  background-color: #e0e3e1;
+  z-index: 1;
+  border-bottom-left-radius: 300px;
+}
+
+.gray-form-1 {
+  position: absolute;
+  top: 621px;
+  left: 8.3%;
+  width: 300px;
+  height: 478px;
+  background-color: #e0e3e1;
+  z-index: 1;
+  border-radius: 300px;
+}
+
+.wrapperContent {
+  position: absolute;
+  margin-top: 136px;
+  margin-left: 130px;
+  z-index: 1;
+  width: 50.9%;
+  height: 370px;
+}
+
+.wrapperContent h1 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 102px;
+}
+
+.wrapperContent p {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  width: 65.5%;
+}
+
+.wrapperContent button {
+  margin-left: 350px;
+  width: 128px;
+  height: 52px;
+  background-color: #28887a;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 144px;
+
+  &:hover {
+    background-color: #1f6b5e;
+  }
+}

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Visby-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/VisbyRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Visby Bold Italic"), url("../assets/fonts/VisbyBold Italic.woff");
+}
+
+@font-face {
+  font-family: "Visby-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Visby Bold"), url("../assets/fonts/VisbyBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-ExtraboldItalic";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Visby Extrabold Italic"),
+    url("../assets/fonts/VisbyExtrabold Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Extrabold";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Visby Extrabold"), url("../assets/fonts/VisbyExtrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-HeavyItalic";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Visby Heavy Italic"), url("../assets/fonts/VisbyHeavy Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Heavy";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Visby Heavy"), url("../assets/fonts/VisbyHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Visby Italic"), url("../assets/fonts/VisbyItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Visby Light Italic"), url("../assets/fonts/VisbyLight Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Visby Light"), url("../assets/fonts/VisbyLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-MediumItalic";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Visby Medium Italic"),
+    url("../assets/fonts/VisbyMedium Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Visby Medium"), url("../assets/fonts/VisbyMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-SemiboldItalic";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Visby Semibold Italic"),
+    url("../assets/fonts/VisbySemibold Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Visby Semibold"), url("../assets/fonts/VisbySemibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-ThinItalic";
+  font-style: italic;
+  font-weight: 100;
+  src: local("Visby Thin Italic"), url("../assets/fonts/VisbyThin Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby-Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Visby Thin"), url("../assets/fonts/VisbyThin.woff") format("woff");
+}
