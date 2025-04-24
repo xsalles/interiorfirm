@@ -62,15 +62,12 @@ header button {
 
 .line {
   position: absolute;
-  height: 100%;
+  height: 409.36%;
   width: 1px;
   background-color: #030605;
-  left: 130px;
-  top: 118px;
+  left: 138px;
   z-index: 1;
   opacity: 32%;
-  display: flex;
-  align-items: center;
 }
 
 .line2 {
@@ -86,7 +83,7 @@ header button {
 
 .line4 {
   position: absolute;
-  height: 100%;
+  height: 360.84%;
   width: 1px;
   background-color: #030605;
   left: 91%;
@@ -118,6 +115,8 @@ header button {
 .heroSection {
   position: relative;
   font-family: "Visby-Regular", sans-serif;
+  height: 1418px;
+  border-bottom: 1px solid #030605;
 }
 
 .yellow {
@@ -198,7 +197,7 @@ header button {
   height: 370px;
 }
 
-.wrapperContent h1 {
+.wrapperContent h2 {
   font-family: "Roxborough", sans-serif;
   font-weight: 700;
   font-size: 102px;
@@ -235,12 +234,12 @@ header button {
 }
 
 .buttonWrapper button {
-   font-size: 16px;
-   font-family: 'Visby-Medium', sans-serif;
-   font-weight: 500;
-   color: white;
-   height: 100%;
-   width: 112px;
+  font-size: 16px;
+  font-family: "Visby-Medium", sans-serif;
+  font-weight: 500;
+  color: white;
+  height: 100%;
+  width: 112px;
 }
 
 .buttonWrapper p {
@@ -253,7 +252,7 @@ header button {
 .line3 {
   position: absolute;
   height: 1px;
-  width: 93.8%;
+  width: 93%;
   background-color: #030605;
   left: 130px;
   top: 922px;
@@ -366,4 +365,67 @@ header button {
   &:hover {
     background-color: #343434;
   }
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  left: 77.36%;
+  width: 511px;
+  height: 511px;
+  border-radius: 100px;
+  height: 100%;
+  background-color: #e84f21;
+  filter: blur(132px);
+  opacity: 10%;
+  top: 0;
+  bottom: 44px;
+}
+
+.createSection {
+  position: relative;
+  height: 922px;
+  padding-inline: 140px;
+  padding-block: 100px 60px;
+}
+
+.createSection h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+  margin-top: 100px;
+  width: 535px;
+}
+
+.wrapperCards {
+  display: flex;
+  margin-top: 92px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 59px;
+  transition: background-color 0.3s ease;
+  height: auto;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.card img {
+  width: 146px;
+  height: 146px;
+}
+
+.card h5 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 32px;
+  margin-top: 42px;
+}
+
+.card p {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 20px;
+  margin-top: 16px;
 }

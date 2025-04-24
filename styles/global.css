@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Visby-Medium", sans-serif;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   min-width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #F8FBFA;
 }
 
 a {
