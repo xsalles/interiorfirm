@@ -116,7 +116,7 @@ header button {
   position: relative;
   font-family: "Visby-Regular", sans-serif;
   height: 1418px;
-  border-bottom: 1px solid #030605;
+  border-bottom: 1px solid rgb(3, 6, 5, 0.32);
 }
 
 .yellow {
@@ -387,6 +387,8 @@ header button {
   height: 922px;
   padding-inline: 140px;
   padding-block: 100px 60px;
+  border-bottom: 1px solid rgb(3, 6, 5, 0.32);
+
 }
 
 .createSection h3 {
@@ -394,6 +396,7 @@ header button {
   font-size: 82px;
   margin-top: 100px;
   width: 535px;
+  text-align: start;
 }
 
 .wrapperCards {
@@ -428,4 +431,111 @@ header button {
   font-family: "Visby-Regular", sans-serif;
   font-size: 20px;
   margin-top: 16px;
+}
+
+.blurYellow {
+  position: absolute;
+  top: 31px;
+  left: -117px;
+  width: 304px;
+  height: 304px;
+  background-color: #F1D35D;
+  filter: blur(132px);
+  opacity: 20%;
+}
+
+.providingSection {
+  position: relative;
+  height: 1400px;
+  padding-block: 80px;
+  padding-inline: 9.03%;
+  text-align: end;
+  border-bottom: 1px solid rgb(3, 6, 5, 0.32);
+  
+}
+
+.providingSection h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+}
+
+.gray-form-3 {
+  position: absolute;
+  top: 360px;
+  left: 0;
+  width: 44.44%;
+  height: 600px;
+  background-color: #e0e3e1;
+  z-index: 1;
+}
+
+.gray-form-4 {
+  position: absolute;
+  top: 550px;
+  left: 30.21%;
+  width: 60.76%;
+  height: 428px;
+  background-color: #e0e3e1;
+  z-index: 1;
+  border-left: 30px solid white;
+  border-top: 30px solid white;
+  border-bottom-right-radius: 200px;
+}
+
+.yellow-2 {
+  position: absolute;
+  top: 775px;
+  left: 33.47%;
+  width: 66.67%;
+  height: 578px;
+  background-color: #ffd476;
+  border-top-right-radius: 406px;
+  z-index: -2;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.yellow-2 p {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 20px;
+  margin-top: 323px;
+  margin-left: 60px;
+  width: 697px;
+}
+
+.yellow-2 button {
+  width: 128px;
+  height: 52px;
+  background-color: #28887a;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: 80px;
+  margin-top: 41px;
+
+  &:hover {
+    background-color: #1f6b5e;
+  }
+}
+
+.yellow-2 img {
+  width: 94px;
+  margin-left: 69.17%;
+  position: absolute;
+  top: 458px;
+}
+
+.line-5 {
+  position: absolute;
+  height: 425px;
+  width: 1px;
+  background-color: #030605;
+  left: 31.8%;
+  top: 977px;
+  z-index: -1;
+  opacity: 32%;
 }
