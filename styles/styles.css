@@ -62,7 +62,7 @@ header button {
 
 .line {
   position: absolute;
-  height: 409.36%;
+  height: 100%;
   width: 1px;
   background-color: #030605;
   left: 138px;
@@ -83,7 +83,7 @@ header button {
 
 .line4 {
   position: absolute;
-  height: 360.84%;
+  height: 100%;
   width: 1px;
   background-color: #030605;
   left: 91%;
@@ -254,7 +254,7 @@ header button {
   height: 1px;
   width: 93%;
   background-color: #030605;
-  left: 130px;
+  left: 7%;
   top: 922px;
   z-index: -1;
   opacity: 32%;
@@ -451,7 +451,6 @@ header button {
   padding-inline: 9.03%;
   text-align: end;
   border-bottom: 1px solid rgb(3, 6, 5, 0.32);
-  
 }
 
 .providingSection h3 {
@@ -485,7 +484,7 @@ header button {
 .yellow-2 {
   position: absolute;
   top: 775px;
-  left: 33.47%;
+  left: 33.33%;
   width: 66.67%;
   height: 578px;
   background-color: #ffd476;
@@ -534,8 +533,126 @@ header button {
   height: 425px;
   width: 1px;
   background-color: #030605;
-  left: 31.8%;
+  left: 32.3%;
+  right: 67.7%;
   top: 977px;
   z-index: -1;
   opacity: 32%;
+}
+
+.uniqueSection {
+  position: relative;
+  height: 1440px;
+  padding-block: 80px;
+  text-align: left;
+  border-bottom: 1px solid rgb(3, 6, 5, 0.32);
+}
+
+.uniqueSection h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+  margin-bottom: 100px;
+  margin-left: 11%;
+  position: absolute;
+  width: 827px;
+}
+
+.uniqueSection img {
+  position: absolute;
+  margin-top: 360px;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+}
+
+.uniqueSection p {
+  position: absolute;
+  width: auto;
+  left: 11%;
+  margin-right: 11%;
+  font-size: 20px;
+  margin-top: 1120px;
+}
+
+.amazingSection {
+  position: relative;
+  height: 1440px;
+  padding-block: 80px;
+  border-bottom: 1px solid rgb(3, 6, 5, 0.32);
+  
+}
+
+.amazingSection h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+  margin-bottom: 100px;
+  position: absolute;
+  text-align: end;
+  left:16%;
+  right: 9%;
+}
+
+.amazingSection img {
+  position: absolute;
+  margin-top: 280px;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+}
+
+.yellow-3 {
+  position: relative;
+  right: 9.03%;
+  width: 100%;
+  height: 290px;
+  background-color: #ffd476;
+  border-bottom-left-radius: 406px;
+  z-index: 1; 
+  top: 880px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.yellow-3 div {
+  position: absolute;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  flex-direction: column;
+}
+
+.yellow-3 div h3 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 46px;
+  position: absolute;
+  right: 70%;
+  width: 300px;
+  top: 68px;
+}
+
+.yellow-3 div p {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 20px;
+  width: 627px;
+  position: absolute;
+  top: 128px;
+  right: 43.5%;
+}
+
+.yellow-3 button {
+  width: 128px;
+  height: 52px;
+  background-color: #28887a;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: 80px;
+  margin-top: 41px;
+
+  &:hover {
+    background-color: #1f6b5e;
+  }
 }
