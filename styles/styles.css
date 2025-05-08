@@ -649,8 +649,8 @@ header button {
   border: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  margin-left: 80px;
-  margin-top: 41px;
+  margin-top: 128px;
+  margin-right: 60px;
 
   &:hover {
     background-color: #1f6b5e;
