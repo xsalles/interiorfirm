@@ -60,6 +60,10 @@ header button {
   }
 }
 
+main {
+  position: relative;
+}
+
 .line {
   position: absolute;
   height: 100%;
@@ -76,14 +80,13 @@ header button {
   width: 1px;
   background-color: #030605;
   left: 400px;
-  top: 118px;
   z-index: 1;
   opacity: 22%;
 }
 
 .line4 {
   position: absolute;
-  height: 100%;
+  height: calc(100% - 848px);
   width: 1px;
   background-color: #030605;
   left: 91%;
@@ -252,7 +255,7 @@ header button {
 .line3 {
   position: absolute;
   height: 1px;
-  width: 93%;
+  width: 100%;
   background-color: #030605;
   left: 7%;
   top: 922px;
@@ -754,4 +757,78 @@ header button {
   &:hover {
     background-color: #1f6b5e;
   }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 130px 45px 130px;
+  height: fit-content;
+  position: relative;
+}
+
+.wrapperLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.wrapperLogo img {
+  width: 243px;
+  height: 42px;
+}
+
+.wrapperLogo p {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 20px;
+  width: 293px;
+}
+
+.wrapperContentFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperFooter {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+}
+
+.wrapperFooter nav h5 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.wrapperFooter nav p {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 15px;
+  margin-bottom: 32px;
+  color: #5C5E5E;
+}
+
+.lineFooter {
+  height: 1px;
+  width: 90%;
+  background-color: #030605;
+  position: absolute;
+  left: 0;
+  top: 446px;  
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 0 0 0;
+  margin-top: 45px;
+  color: #5C5E5E;
+  font-family: 'Visby-Regular', sans-serif;
+}
+
+.copyright div {
+  font-size: 15px;
+  display: flex;
+  margin-right: 60px;
+  gap: 34px;  
 }
