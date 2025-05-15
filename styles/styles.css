@@ -388,7 +388,6 @@ header button {
   padding-inline: 140px;
   padding-block: 100px 60px;
   border-bottom: 1px solid rgb(3, 6, 5, 0.32);
-
 }
 
 .createSection h3 {
@@ -439,7 +438,7 @@ header button {
   left: -117px;
   width: 304px;
   height: 304px;
-  background-color: #F1D35D;
+  background-color: #f1d35d;
   filter: blur(132px);
   opacity: 20%;
 }
@@ -579,7 +578,6 @@ header button {
   height: 1440px;
   padding-block: 80px;
   border-bottom: 1px solid rgb(3, 6, 5, 0.32);
-  
 }
 
 .amazingSection h3 {
@@ -588,7 +586,7 @@ header button {
   margin-bottom: 100px;
   position: absolute;
   text-align: end;
-  left:16%;
+  left: 16%;
   right: 9%;
 }
 
@@ -607,7 +605,7 @@ header button {
   height: 290px;
   background-color: #ffd476;
   border-bottom-left-radius: 406px;
-  z-index: 1; 
+  z-index: 1;
   top: 880px;
   display: flex;
   flex-direction: row-reverse;
@@ -651,6 +649,107 @@ header button {
   transition: all 0.3s ease;
   margin-top: 128px;
   margin-right: 60px;
+
+  &:hover {
+    background-color: #1f6b5e;
+  }
+}
+
+.feedbackSection {
+  display: flex;
+  flex-direction: column;
+  height: 870px;
+  padding-top: 80px;
+  padding-inline: 9.03% 12.5%;
+}
+
+.feedbackSection div h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.feedbackSection div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gray-small-1 {
+  width: 265px;
+  height: 410px;
+  background-color: #e0e3e1;
+  border-bottom-right-radius: 200px;
+}
+
+.wrapperQuote {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.quote h5 {
+  font-family: "Visby-Medium", sans-serif;
+  font-size: 36px;
+}
+
+.quote:nth-child(2) {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 36px;
+  width: 815px;
+}
+
+.quote:nth-child(3) {
+  font-family: "Visby-Regular", sans-serif;
+  font-size: 32px;
+  color: #5c5e5e;
+}
+
+.interestSection {
+  display: flex;
+  width: 100%;
+  background-color: #ffd476;
+  border-bottom-right-radius: 400px;
+  height: 566px;
+  z-index: 1;
+  padding-top: 80px;
+  padding-inline: 9%;
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  align-items: start;
+}
+
+.cta h3 {
+  font-family: "Roxborough", sans-serif;
+  font-size: 82px;
+  width: 677px;
+}
+
+.cta p {
+  font-size: 20px;
+  font-family: "Visby-Medium", sans-serif;
+}
+
+.cta button {
+  width: 128px;
+  height: 52px;
+  background-color: #28887a;
+  color: white;
+  font-size: 15px;
+  font-weight: "Visby-Regular", sans-serif;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
 
   &:hover {
     background-color: #1f6b5e;
